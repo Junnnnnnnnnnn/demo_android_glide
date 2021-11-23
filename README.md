@@ -2,6 +2,9 @@
 
 ## ✏️ Study
 
+- https://yotdark.tistory.com/42
+- [[Android] Glide로 이미지 보여주기](https://github.com/Junnnnnnnnnnn/android_study/blob/master/Jetpack_glide/%5BAndroid%5D%20Glide%EB%A1%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%B3%B4%EC%97%AC%EC%A3%BC%EA%B8%B0.md)
+
 ## 🌍 Setting
 
 - CompileSdk = 30
