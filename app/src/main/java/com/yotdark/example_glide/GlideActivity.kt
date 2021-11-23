@@ -13,8 +13,16 @@ class GlideActivity(private val context: Context): AppGlideModule() {
 
     fun glideLoadImage(view: ImageView, url: String, type: String){
         when(type){
-            "loading" -> Glide.with(context).load(url).placeholder(getProgress()).into(view)
-            else -> Glide.with(context).load(url).placeholder(getProgress()).centerCrop().error(R.drawable.warn_icon_24).into(view)
+            "loading" -> Glide.with(context)
+                              .load(url)
+                              .placeholder(getProgress())
+                              .into(view)
+            else -> Glide.with(context)
+                         .load(url)
+                         .placeholder(getProgress())
+                         .centerCrop()
+                         .error(R.drawable.warn_icon_24)
+                         .into(view)
         }
     }
 
